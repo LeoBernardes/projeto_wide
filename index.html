@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,user-scalable=0" />
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		
-		<!-- Carregando jquery-->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
-		
-		<!-- Carregando js-->
-		<script src="assets/js/js.js"></script>
-		<title>Projeto Wide</title>
-	</head>
 
-	<body>
-		<div class="botaoprincipal">
-			<h1>Clique aqui para listar <br> os usuários.</br></h1>
-			<button onclick="carregarUsuarios()">Clique aqui</button>
-		</div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=0" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Projeto Wide</title>
+</head>
 
-		<div class="tabela" id="tabela">
-			<h1>Usuários.</h1>
-			<table id="usuarios">
-			  <tr>
-			    <th>Nome</th>
-			    <th>Username</th> 
-			    <th>E-mail</th>
-			  </tr>
-			</table>
-		</div>
-	</body>
+<body>
+	<div class="botaoprincipal">
+		<h1>Clique aqui para listar <br> os usuários.</br></h1>
+		<button onclick="carregarUsuarios()">Clique aqui</button>
+	</div>
+
+	<div class="tabela" id="tabela">
+		<h1>Usuários.</h1>
+		<table id="usuarios">
+			<tr>
+				<th>Nome</th>
+				<th>Username</th>
+				<th>E-mail</th>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Carregando jquery-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Carregando js-->
+	<script src="assets/js/js.js"></script>
+</body>
 
 
 </html>
