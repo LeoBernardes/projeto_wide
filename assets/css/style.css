@@ -1,0 +1,49 @@
+*{
+	font-family: sans-serif;
+}
+
+
+.botaoprincipal{
+	margin: auto;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 265px;
+}
+button{
+	width: 300px;
+    padding: 10px;
+    height: 55px;
+	border-radius: 7px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #000000;
+	color: #FFF;
+}
+
+.tabela h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+.tabela{	
+	position: relative;
+	top: 900px;
+	margin-bottom: 200px;
+}
+.tabela table{
+	margin: auto;
+	width: 70%;
+	border: 5px solid black;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border: 1px solid #CCC;
+	color: #828282;
+	}
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+
